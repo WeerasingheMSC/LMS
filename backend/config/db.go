@@ -20,6 +20,6 @@ func ConnectDB() (*sql.DB, error) {
 		return nil, fmt.Errorf("error connecting to database: %v", err)
 	}
 
-	log.Println("Successfully connected to the database")
+	log.Println("Successfully connected to the database....")
 	return db, nil
 }
